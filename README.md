@@ -18,3 +18,7 @@ Free or paid, all templates are high quality and will make great portfolio piece
 ### Fonts Used
 
 https://fonts.google.com/specimen/Roboto
+
+> Final Version
+
+[![Final Version](./Mockup.png "Workside Mockup")](https://jaspalsingh1998.github.io/workside-template/)
