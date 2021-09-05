@@ -14,10 +14,10 @@
     <title>Workside | Landing Page</title>
   </head>
   <body class="min-h-screen bg-dark-bg font-Roboto">
-    <div class="container mx-auto px-5 md:px-10 py-10">
-      <header class="flex justify-between items-center">
+    <div class="container mx-auto md:px-10 py-10">
+      <header class="flex justify-between items-center px-5 md:px-0 mb-12">
         <img src="./Assets/Workside Logo.svg" alt="Workside Logo" />
-        <nav class="text-muted space-x-6 hidden md:block">
+        <nav class="text-muted space-x-6 hidden md:block text-lg">
           <a href="#">Find a Job</a>
           <a href="#">Submit a Job</a>
           <a href="#">Sponsor us</a>
@@ -33,6 +33,95 @@
           class="md:hidden"
         />
       </header>
+      <main class="flex gap-12">
+        <!-- Filters -->
+        <section class="w-32">
+          <!-- Location Filter -->
+          <div class="mb-14">
+            <h2 class="font-bold text-white text-lg mb-4">Location</h2>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="remote" id="remote" />
+              </div>
+              <p>Remote</p>
+            </div>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="usa" id="usa" />
+              </div>
+              <p>Remote</p>
+            </div>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="india" id="india" />
+              </div>
+              <p>India</p>
+            </div>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="aus" id="aus" />
+              </div>
+              <p>Australia</p>
+            </div>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="poland" id="poland" />
+              </div>
+              <p>Poland</p>
+            </div>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="Canada" id="canada" />
+              </div>
+              <p>Canada</p>
+            </div>
+          </div>
+          <div class="mb-14">
+            <h2 class="font-bold text-white text-lg mb-4">Payment</h2>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="verified" id="verified" />
+              </div>
+              <p>Verified</p>
+            </div>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="unverified" id="unverified" />
+              </div>
+              <p>Unverified</p>
+            </div>
+          </div>
+          <div class="mb-14">
+            <h2 class="font-bold text-white text-lg mb-4">Level</h2>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="easy" id="easy" />
+              </div>
+              <p>Easy</p>
+            </div>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="Intermediate" id="intermediate" />
+              </div>
+              <p>Intermediate</p>
+            </div>
+            <div class="flex text-muted gap-2 text-base mb-3">
+              <div class="form-group">
+                <input type="checkbox" name="experts" id="experts" />
+              </div>
+              <p>Experts</p>
+            </div>
+          </div>
+        </section>
+        <!-- Jobs -->
+        <section class="w-100">
+          <article class="bg-card-bg p-6"></article>
+        </section>
+        <!-- Job Description -->
+        <section class="w-102">
+          <article class="bg-card-bg p-6"></article>
+        </section>
+      </main>
     </div>
   </body>
 </html>

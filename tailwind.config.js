@@ -6,9 +6,13 @@ module.exports = {
       Roboto: ["Roboto", "sans-serif"],
     },
     extend: {
+      spacing: {
+        100: "26rem",
+        102: "37.0625rem",
+      },
       colors: {
         "dark-bg": "#15192A",
-        "card-bg": "#8F9BB3",
+        "card-bg": "#1F273C",
         accent: "#005DF9",
         muted: "#8F9BB3",
       },
