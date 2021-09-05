@@ -13,5 +13,26 @@
     <link rel="stylesheet" href="./dist/tailwind.css" />
     <title>Workside | Landing Page</title>
   </head>
-  <body class="min-h-screen bg-dark-bg font-Roboto"></body>
+  <body class="min-h-screen bg-dark-bg font-Roboto">
+    <div class="container mx-auto px-5 md:px-10 py-10">
+      <header class="flex justify-between items-center">
+        <img src="./Assets/Workside Logo.svg" alt="Workside Logo" />
+        <nav class="text-muted space-x-6 hidden md:block">
+          <a href="#">Find a Job</a>
+          <a href="#">Submit a Job</a>
+          <a href="#">Sponsor us</a>
+        </nav>
+        <div class="text-white md:flex gap-3 items-center hidden">
+          <img src="./Assets/Avatar.svg" alt="Avatar" />
+          <p>Olivia Benjamin</p>
+          <img src="./Assets/Down Arrow.svg" alt="Down Arrow" />
+        </div>
+        <img
+          src="./Assets/Hamburger Menu.png"
+          alt="Menu Btn"
+          class="md:hidden"
+        />
+      </header>
+    </div>
+  </body>
 </html>
